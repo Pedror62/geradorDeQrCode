@@ -18,7 +18,7 @@ function genratioQrCode(){
     }; 
     
     qrhederbtn.innerHTML = "Gerando QRcode!..."
-    qrcodeimg.src =`https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${qrcodeimg}`;
+    qrcodeimg.src =`https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${qrhederinpultvalue}`;
         
     qrcodeimg.addEventListener("load" , () => {
         container.classList.add("active");
