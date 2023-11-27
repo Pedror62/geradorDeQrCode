@@ -7,7 +7,7 @@ body{
     background-color:#58D68D;
     font-family:Poppins;
 }
-.container{ 
+.container { 
     text-align: center;
     margin: 4rem 4rem;
     line-height: 4rem;
@@ -23,17 +23,24 @@ body{
     height:550px;
     background-color: #16A085;
 } 
-h1{
+.fora h1{
     font-size:26px;
     color:#fff;
     font:bold;
     text-wrap: nowrap;
+
+    max-width: 17rem;
+    margin-left: auto;
+    margin-right: auto;
+   
+ 
 }
 h2{
     font-size:20px;
     color:#fff;
     font:bold;
-    text-wrap: nowrap;
+    line-height: 2rem;
+   
 }
 #qr-form{
     display: flex;
@@ -78,3 +85,72 @@ hr{
 .container.active #qr-code{
     opacity:1;
 }
+@media  (min-width: 316px){
+    .container {
+        text-align: center;
+        margin: 4rem 4rem;
+        line-height: 4rem;
+        background-color: #16A085;
+        height: 350px;
+        width: 450px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 1.2rem;
+        max-width: 95%;
+    }
+    .fora h1 {
+        font-size: 26px;
+        color: #fff;
+        font: bold;
+        margin: 2rem 1rem;
+    }
+}  
+@media (min-width: 780px) {
+    .fora h1 {
+        font-size: 26px;
+        color: #fff;
+        font: bold;
+        margin: 2rem 1rem; 
+        margin: 2rem 3rem;
+    }  
+}
+@media (min-width: 576px) { 
+    h2{
+        font-size:20px;
+        color:#fff;
+        font:bold;
+        line-height: 2rem;
+
+        width:27rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .fora h1{
+        font-size:26px;
+        color:#fff;
+        font:bold;
+        margin: 4rem 4rem;
+        margin: 1rem 7rem 1rem 9rem;     
+    }
+ }
+ @media (min-width: 768px) { 
+    
+    .fora h1{
+        font-size:26px;
+        color:#fff;
+        font:bold;
+        margin: 4rem 4rem;
+        margin: 1rem 7rem 1rem 15rem;    
+    }
+}
+  @media (min-width: 992px) { 
+    
+    .fora h1{
+        font-size:26px;
+        color:#fff;
+        font:bold;
+        margin: 4rem 4rem;
+        margin: 2rem 7rem 1rem 23rem; 
+    }
+   }
