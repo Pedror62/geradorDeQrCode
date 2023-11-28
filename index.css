@@ -32,6 +32,7 @@ body{
     max-width: 17rem;
     margin-left: auto;
     margin-right: auto;
+    padding: 1px;
    
  
 }
@@ -40,6 +41,8 @@ h2{
     color:#fff;
     font:bold;
     line-height: 2rem;
+    padding: 1px;
+    
    
 }
 #qr-form{
@@ -105,6 +108,10 @@ hr{
         margin: 2rem 1rem;
     }
 }  
+
+
+
+
 @media (min-width: 780px) {
     .fora h1 {
         font-size: 26px;
@@ -144,7 +151,7 @@ hr{
         margin: 1rem 7rem 1rem 15rem;    
     }
 }
-  @media (min-width: 992px) { 
+@media (min-width: 992px) { 
     
     .fora h1{
         font-size:26px;
@@ -154,3 +161,16 @@ hr{
         margin: 2rem 7rem 1rem 23rem; 
     }
    }
+
+
+
+@media  (min-width: 375px){
+    h2 {
+        color: #000;
+        font-size: 20px;
+        color: #fff;
+        font: bold;
+        line-height: 2rem;
+        padding: 1px;
+    }
+}
