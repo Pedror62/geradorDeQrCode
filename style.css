@@ -6,13 +6,17 @@
 body{
     background-color:#58D68D;
     font-family:Poppins;
+    text-align: center;
+    background-image: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover; /*  cubra toda a área */
+    background-position: center; /* centraliza a imagem */
 }
 .container { 
     text-align: center;
     margin: 4rem 4rem;
     line-height: 4rem;
     background-color: #16A085;
-    height: 350px;
+    height: 500px;
 
     width: 450px;
     margin-left: auto;
@@ -23,7 +27,7 @@ body{
     height:550px;
     background-color: #16A085;
 } 
-.fora h1{
+.container h1{
     font-size:26px;
     color:#fff;
     font:bold;
@@ -33,7 +37,6 @@ body{
     margin-left: auto;
     margin-right: auto;
     padding: 1px;
-   
  
 }
 h2{
@@ -41,9 +44,7 @@ h2{
     color:#fff;
     font:bold;
     line-height: 2rem;
-    padding: 1px;
-    
-   
+    padding: 1pxx     
 }
 #qr-form{
     display: flex;
@@ -55,7 +56,6 @@ h2{
     border-radius: 1rem;
     outline: none;
     border: none;
-
     color: black;
 }
 button{
@@ -79,14 +79,26 @@ hr{
     color: #A2D9CE;
     width: 100%;
 }
+.QR-form button{
+    background-color:#ed0a0a;
+}
 #qr-code{
     opacity:0;
     margin:20px 15px;
-    padding:20px 0;
+    padding: 0;
     trasnsition:0.5s;
 }
 .container.active #qr-code{
     opacity:1;
+}
+footer{
+    color:#fff;
+    background-color:#0B5345;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 
 @media  (min-width: 316px){
@@ -95,7 +107,7 @@ hr{
         margin: 4rem 4rem;
         line-height: 4rem;
         background-color: #16A085;
-        height: 350px;
+        height: 450px;
         width: 450px;
         margin-left: auto;
         margin-right: auto;
@@ -137,7 +149,6 @@ hr{
         margin-left: auto;
         margin-right: auto;
     }
-
  .fora h1{
         font-size:26px;
         color:#fff;
@@ -147,7 +158,6 @@ hr{
     }
  }
  @media (min-width: 768px) { 
-    
     .fora h1{
         font-size:26px;
         color:#fff;
@@ -157,7 +167,6 @@ hr{
     }
 }
 @media (min-width: 992px) { 
-    
     .fora h1{
         font-size:26px;
         color:#fff;

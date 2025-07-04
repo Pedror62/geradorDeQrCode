@@ -10,25 +10,33 @@
     <!-- link fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap" rel="stylesheet">
     <!-- link js  -->
-    <script src="index.js" defer></script>
+    <script src="generationQR.js" defer></script>
     <!-- link style -->
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="fora">
-        <h1>Gerador de QR Code</h1>
+
     </div>
     <div class="container">
+        <h1>Gerador de QR Code</h1>
+        <hr>
 
         <header id="qr-heder">
 
             <h2>Insira um link ou texto, para Gerar o QR Code!</h2>
+
+
         </header>
 
         <div id="qr-form">
-            <input type="text" placeholder="insira um link ou texto!">
-            <button>Gerar QR code</button>
+            <div class="QR-form">
+                <input type="text" placeholder="insira um link ou texto!">
+                <button class="BtnClear">Limpar</button>
+            </div>
+
+            <button id="BTN_generation">Gerar QR code</button>
             <hr>
         </div>
 
@@ -36,7 +44,9 @@
             <img src="./img/qrcodeDownload.png" alt="imagem do QR code" />
         </div>
     </div>
-
+     <footer>
+        <p>&copy; 2025 Pedror62. Todos os direitos reservados.</p>
+    </footer>
 </body>
 
 </html>
